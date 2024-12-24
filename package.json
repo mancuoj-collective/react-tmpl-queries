@@ -1,0 +1,55 @@
+{
+  "type": "module",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prepare": "simple-git-hooks"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "latest",
+    "@tanstack/react-query": "latest",
+    "@tanstack/react-query-devtools": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "jotai": "latest",
+    "jotai-dark": "latest",
+    "jotai-effect": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router": "latest",
+    "sonner": "latest"
+  },
+  "devDependencies": {
+    "@egoist/tailwindcss-icons": "latest",
+    "@fontsource-variable/dm-sans": "latest",
+    "@fontsource-variable/inter": "latest",
+    "@iconify-json/carbon": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react-swc": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-hyoban": "latest",
+    "lint-staged": "latest",
+    "postcss": "latest",
+    "simple-git-hooks": "latest",
+    "tailwind-merge": "latest",
+    "tailwind-scrollbar": "latest",
+    "tailwindcss": "latest",
+    "tailwindcss-animate": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vite-tsconfig-paths": "latest"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}
