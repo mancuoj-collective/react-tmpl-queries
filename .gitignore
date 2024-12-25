@@ -1,6 +1,3 @@
-# Always latest
-pnpm-lock.yaml
-
 # Logs
 logs
 *.log

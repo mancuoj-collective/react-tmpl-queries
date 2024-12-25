@@ -9,8 +9,9 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
-    "@radix-ui/react-select": "^2.1.4",
-    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-select": "latest",
+    "@radix-ui/react-slot": "latest",
+    "@radix-ui/react-tabs": "latest",
     "@tanstack/react-query": "latest",
     "@tanstack/react-query-devtools": "latest",
     "class-variance-authority": "latest",
@@ -18,7 +19,7 @@
     "jotai": "latest",
     "jotai-dark": "latest",
     "jotai-effect": "latest",
-    "ky": "^1.7.4",
+    "ky": "latest",
     "lucide-react": "latest",
     "react": "latest",
     "react-dom": "latest",
